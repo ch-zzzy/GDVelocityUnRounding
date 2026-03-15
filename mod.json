@@ -1,0 +1,11 @@
+{
+	"geode": "5.3.0",
+	"gd": {
+		"win": "2.2081"
+	},
+	"id": "chizz.velocity-unrounding",
+	"name": "Velocity UnRounding",
+	"version": "v1.0.0",
+	"developer": "chizz",
+	"description": "Very simple mod that removes the feature that rounds y-velocity to the third decimal place. Technically changes physics so take note of that."
+}
