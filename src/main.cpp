@@ -11,6 +11,7 @@ class $modify(PlayerObject) {
 };
 
 // Patches the rounding from PlayerObject::updateJump
+#ifdef GEODE_IS_WINDOWS
 $on_mod(Loaded) {
 	std::vector<uint8_t> nops(0x26, 0x90);
 	Mod::get()->patch(
@@ -18,3 +19,4 @@ $on_mod(Loaded) {
 		nops
 	);
 }
+#endif
