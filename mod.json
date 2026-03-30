@@ -8,8 +8,8 @@
 	},
 	"id": "chizz.velocity-unrounding",
 	"name": "Velocity UnRounding",
-	"version": "v1.0.1",
+	"version": "v1.0.2",
 	"developer": "chizz",
 	"description": "Very simple mod that removes the feature that rounds y-velocity to the third decimal place.",
-  "tags": [ "gameplay" ]
+  "tags": [ "gameplay", "cheat" ]
 }
