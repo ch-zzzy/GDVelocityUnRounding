@@ -1,5 +1,5 @@
 {
-	"geode": "5.5.3",
+	"geode": "5.8.2",
 	"gd": {
 		"win": "2.2081",
 		"android": "2.2081",
@@ -7,11 +7,14 @@
 		"ios": "2.2081"
 	},
 	"id": "chizz.velocity-unrounding",
-	"name": "Velocity UnRounding",
-	"version": "v1.0.3",
+	"name": "Velocity Unrounding",
+	"version": "v1.0.4",
 	"developer": "chizz",
-	"description": "Very simple mod that removes the feature that rounds y-velocity to the third decimal place.",
-	"tags": [ "gameplay", "cheat" ],
+	"description": "stops yvel from being rounded 🤯",
+	"tags": [
+		"gameplay",
+		"cheat"
+	],
 	"links": {
 		"source": "https://github.com/ch-zzzy/GDVelocityUnRounding"
 	}
