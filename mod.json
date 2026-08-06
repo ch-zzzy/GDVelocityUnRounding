@@ -8,9 +8,16 @@
 	},
 	"id": "chizz.velocity-unrounding",
 	"name": "Velocity Unrounding",
-	"version": "v1.0.4",
+	"version": "v1.0.5",
 	"developer": "chizz",
 	"description": "stops yvel from being rounded 🤯",
+	"settings": {
+		"mod-enabled": {
+			"name": "Enable Mod",
+			"type": "bool",
+			"default": true
+		}
+	},
 	"tags": [
 		"gameplay",
 		"cheat"

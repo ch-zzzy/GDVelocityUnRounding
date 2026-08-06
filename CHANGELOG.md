@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.5
+
+- added soft toggle
+
 ## v1.0.4
 
 - bump to geode v5.8.2 cus why not
