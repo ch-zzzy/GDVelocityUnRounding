@@ -58,6 +58,7 @@ static void toggleVelocityUnroundingPatches(bool enable) {
 // clang-format on
 
 static bool s_modEnabled = true;
+
 $on_mod(Loaded) {
 	s_modEnabled = Mod::get()->getSettingValue<bool>("mod-enabled");
 	toggleVelocityUnroundingPatches(s_modEnabled);
@@ -70,7 +71,7 @@ $on_mod(Loaded) {
 
 class $modify(PlayerObject) {
 	void setYVelocity(double velocity, int type) {
-		if (Mod::get()->getSettingValue<bool>("mod-enabled")) {
+		if (s_modEnabled) {
 			this->m_yVelocity = velocity;
 			return;
 		}

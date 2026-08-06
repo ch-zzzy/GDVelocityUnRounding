@@ -8,7 +8,7 @@
 	},
 	"id": "chizz.velocity-unrounding",
 	"name": "Velocity Unrounding",
-	"version": "v1.0.5",
+	"version": "v1.0.6",
 	"developer": "chizz",
 	"description": "stops yvel from being rounded 🤯",
 	"settings": {
