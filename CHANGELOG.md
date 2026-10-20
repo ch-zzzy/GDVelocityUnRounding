@@ -1,8 +1,13 @@
 # Changelog
 
+## v1.0.7
+
+- bump geode + gd ver, updated patches to 2.2091 addresses (still no full support for non-windows sorry)
+- added yet another patch that was missed in 2.2081 (loadFromCheckpoint)
+
 ## v1.0.6
 
-- magic 🤯
+- small optimization
 
 ## v1.0.5
 
