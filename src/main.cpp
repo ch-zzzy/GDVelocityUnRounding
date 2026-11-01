@@ -31,7 +31,10 @@ struct PatchGroup {
 
 	void toggle(bool enable) {
 		for (auto* patch : appliedPatches) {
-			(void) patch->toggle(enable);
+			auto result = patch->toggle(enable);
+			if (!result.isOk()) {
+				log::error("Failed to toggle patch: {}", result.unwrapErr());
+			}
 		}
 	}
 };
