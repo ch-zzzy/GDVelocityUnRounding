@@ -5,6 +5,7 @@
 - bump geode + gd ver, updated patches to 2.2091 addresses (still no full support for non-windows sorry)
 - added yet another patch that was missed in 2.2081 (loadFromCheckpoint)
 - logged when toggling a patch failed
+- dropped ios support until geode bindings fix setYVelocity
 
 ## v1.0.6
 
